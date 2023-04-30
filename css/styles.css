@@ -9,6 +9,7 @@ H1  #FFFFFF
 body {
   color: #434455;
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
 }
 
 :root {
@@ -35,7 +36,7 @@ button {
 
 /* HEADER */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -43,6 +44,7 @@ button {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--accent-color);
 }
 
 .logo-accent {
@@ -50,7 +52,7 @@ button {
 }
 
 .logo-dark-theme {
-  color: var(--secondary-text-color);
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -63,11 +65,14 @@ button {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: var(--hover-color);
+}
+
+.contact {
+  font-style: normal;
 }
 
 .contact-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -77,7 +82,7 @@ button {
 
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--accent-color);
+  color: var(--hover-color);
 }
 /* MAIN */
 
@@ -135,13 +140,17 @@ button {
   color: var(--primary-text-color);
 }
 
-.section {
+.section-cards {
   background-color: var(--light-mode);
+}
+
+.section-cards-item {
+  background-color: var(--white-color);
 }
 /* FOOTER */
 
 .logo-light-theme {
-  color: var(--light-mode);
+  color: #f4f4fd;
 }
 
 .slogan {
@@ -150,7 +159,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--light-mode);
 }
-footer {
+.page-footer {
   background-color: #2e2f42;
 }
 /* PORTFOLIO.HTML */
